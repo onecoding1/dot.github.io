@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOT OS</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #111;
+      color: #eee;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 2em 1em;
+      background-color: #222;
+    }
+    header h1 {
+      margin: 0.2em 0;
+      color: #f9a825;
+    }
+    main {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 3em;
+    }
+    .downloads a {
+      display: inline-block;
+      margin: 0.5em;
+      padding: 0.8em 1.2em;
+      color: #111;
+      background-color: #f9a825;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .downloads a:hover {
+      background-color: #ffc107;
+    }
+    .emulator {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5em;
+      background-color: #222;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>DOT OS</h1>
+  <p>"I Can't Believe It's Not Linux!"</p>
+</header>
+
+<main>
+  <section class="emulator">
+    <h2>Try DOT OS in your browser</h2>
+    <!-- Dummy v86 iframe example -->
+    <iframe src="https://copy.sh/v86/?profile=linux" width="800" height="400" frameborder="0"></iframe>
+    <p>Boot a lightweight demo ISO directly in your browser.</p>
+  </section>
+
+  <section class="downloads">
+    <h2>Download DOT OS</h2>
+    <a href="downloads/dot-demo-x86.iso" download>DOT Demo ISO (x86)</a>
+    <a href="downloads/dot-pico1.bin" download>DOT Pico 1</a>
+    <a href="downloads/dot-pico2.bin" download>DOT Pico 2 W</a>
+    <p>More downloads will be added as builds become available.</p>
+  </section>
+
+  <section class="description">
+    <h2>About DOT</h2>
+    <p>DOT is a lightweight, self-organizing operating system built with a dynamic hardware registry, event-driven architecture, and modular drivers. It scales from microcontrollers to desktop PCs, providing raw access to capabilities like RTC, audio output, PCI/ATA enumeration, and more.</p>
+    <p>The system emphasizes minimal boot times, clean abstractions, and flexible device integration, making it ideal for experimentation, embedded systems, and rapid prototyping.</p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 DOT OS. All rights reserved.
+</footer>
+
+</body>
+</html>
